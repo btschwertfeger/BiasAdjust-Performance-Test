@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.nc
+bc_output/*
+test_performance_venv
+input_data/*.nc
+BiasAdjustCXX

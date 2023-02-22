@@ -1,0 +1,5 @@
+xclim==0.40.0
+python-cmethods==0.6.1
+cf-xarray==0.8.0
+xarray==2023.2.0
+matplotlib
