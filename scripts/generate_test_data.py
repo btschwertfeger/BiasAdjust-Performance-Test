@@ -1,3 +1,8 @@
+#!/usr/bin/env python3.10
+# Copyright (C) 2023 Benjamin Thomas Schwertfeger   
+# E-Mail: development@b-schwertfeger.de  
+# Github: https://github.com/btschwertfeger
+
 from typing import List, Tuple
 import xarray as xr
 import numpy as np
