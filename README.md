@@ -98,23 +98,15 @@ ____
 ## Table of contents 
 (https://btschwertfeger.github.io/BiasAdjustCXX-Performance-Test/)
 
-1. Download and compilation BiasAdjustCXX v1.8
-2. Generate test data sets
-3. Run the performance tests for BiasAdjustCXX v1.8, xclim v0.40.0 and python-cmethods v0.6.1
-4. Evaluation of the results
-    
-    4.1 Results of BiasAdjustCXX v1.8 (DM, LS, VS, QM, and QDM)
-
-
-    4.2 Results of xclim v0.40.0 (QDM)
-    
-    
-    4.3 Results of python-cmethods v0.6.1 (QM and QDM)
-    
-    
-    4.4 Comparison of the execution time of QDM
-
-5. Conclusion](#conclusion)
+1. Download and compilation BiasAdjustCXX v1.8<br>
+2. Generate test data sets<br>
+3. Run the performance tests for BiasAdjustCXX v1.8, xclim v0.40.0 and python-cmethods v0.6.1<br>
+4. Evaluation of the results<br>
+    4.1 Results of BiasAdjustCXX v1.8 (DM, LS, VS, QM, and QDM)<br>
+    4.2 Results of xclim v0.40.0 (QDM)<br>
+    4.3 Results of python-cmethods v0.6.1 (QM and QDM)<br>
+    4.4 Comparison of the execution time of QDM<br>
+5. Conclusion](#conclusion)<br>
 ___
 <a name="abbrev"></a>
 ## Abbreviations
