@@ -133,3 +133,5 @@ bc_output/*
 test_performance_venv
 input_data/*.nc
 BiasAdjustCXX
+
+.DS_Store
