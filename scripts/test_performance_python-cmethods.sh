@@ -6,7 +6,7 @@
 # Only Quantile Delta Mapping and Quantile Mapping will be tested, because the other 
 # methods have a slighly different implementation than in BiasAdjustCXX
 
-mkdir -p bc_output
+mkdir -p bc_output performance_results
 
 python3 -m venv test_performance_venv
 source test_performance_venv/bin/activate

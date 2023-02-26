@@ -6,11 +6,11 @@
 # Only Quantile Delta Mapping will be tested, because running bias corrections in python 
 # takes to much time and the other methods have a slighly different implementation than in BiasAdjustCXX
 
+mkdir -p bc_output performance_results
+
 perf_fname="performance_results/performance_xclim_method-quantile_delta_mapping.csv"
 TABLE_HEADER="resolution,time (seconds)"
 echo $TABLE_HEADER >> $perf_fname
-
-mkdir -p bc_output
 
 python3 -m venv test_performance_venv
 source test_performance_venv/bin/activate
