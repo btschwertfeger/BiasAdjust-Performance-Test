@@ -3,6 +3,7 @@
 <h3 style="centter"> ... and comparison to <a href="https://zenodo.org/record/7535677" target="blank">xclim v0.40.0</a> and <a href="https://zenodo.org/record/7652756" target="_blank">python-cmethods v0.6.1</a></h3> 
 
 ___
+[![DOI](https://zenodo.org/badge/605167183.svg)](https://zenodo.org/badge/latestdoi/605167183)
 
 
 📍 Check out the results here: https://btschwertfeger.github.io/BiasAdjustCXX-Performance-Test/
