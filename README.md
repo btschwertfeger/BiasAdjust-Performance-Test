@@ -26,7 +26,7 @@ ____
 Comparison of the speed performance of the bias correction tools: 
 - [BiasAdjustCXX v1.8](https://zenodo.org/record/7652734) (C++ command-line tool)
 - [python-cmethods v0.6.1](https://zenodo.org/record/7652756) (Python3 module)
-- [xclim](https://zenodo.org/record/7535677) (Python3 module)
+- [xclim v0.40.0](https://zenodo.org/record/7535677) (Python3 module)
 
 ____
 
@@ -44,13 +44,13 @@ with:
 * OS: MacOS Ventura 13.2.1
 * Disk: 512 GB APPLE SSD AP0512J
 
-All tests have been executed on the same machine. The scripts `scripts/test_performance_*.sh` were used for this purpose. The adjustments are executed using a minimal setup for all tools. The input data sets were randomly generated, this can be reproduced using the script `scripts/generate_test_data.py`. All datasets have exactly 10950 float values per grid cell, so this is comparable to 30 years of daily temperature values. A seed was set so that re-execution would generate the same data. 
+All tests have been executed on the same machine. The scripts `scripts/test_performance_*.sh` were used for this purpose. The adjustments are executed using a minimal setup for all tools. The input data sets were randomly generated, this can be reproduced using the script `scripts/generate_test_data.py`. All data sets have exactly 10950 float values per grid cell, so this is comparable to 30 years of daily temperature values. A seed was set so that re-execution would generate the same data. 
 
 All methods provided in the BiasAdjustCXX tool are tested. For `python-cmthods`, the corrections are only performed for the QM and QDM. For `xclim` only the QDM is used, because this is the only method with a comparable implementation in `BiasAdjustCXX` and `python-cmethods`. All methods are given the same parameters, that is, they are given the same input data sets and all distribution-based methods are given the value of 250 for the number of quantiles to be considered.
 
 Data sets are generated, which contain a grid of 10x10, 20x20, 30x30, ..., 100x100 with 10950 values per grid cell. Since especially with the Python modules the time to load, prepare and correct a data set varies strongly despite seemingly equal starting-/preconditions, the data sets are corrected multiple times per tool. This provides a better overview of the outliers and also makes it possible to map an average value.
 
-It has been found that the python modules have difficulty processing large datasets, for this reason only datasets with a resolution up to 60x60 are tested for these python modules. 
+It has been found that the python modules have difficulty processing large data sets, for this reason only data sets with a resolution up to 60x60 are tested for these python modules. 
 
 `BiasAdjustCXX` also offers the computation using multiple threads. This is als tested here.
 
@@ -106,7 +106,7 @@ ____
     4.2 Results of xclim v0.40.0 (QDM)<br>
     4.3 Results of python-cmethods v0.6.1 (QM and QDM)<br>
     4.4 Comparison of the execution time of QDM<br>
-5. Conclusion](#conclusion)<br>
+5. Conclusion<br>
 ___
 <a name="abbrev"></a>
 ## Abbreviations
